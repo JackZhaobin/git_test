@@ -1,0 +1,49 @@
+
+T3C98 000:214 SEGGER J-Link V6.45e (beta) Log File (0001ms, 0033ms total)
+T3C98 000:214 DLL Compiled: May  3 2019 17:48:54 (0001ms, 0033ms total)
+T3C98 000:214 Logging started @ 2019-05-17 21:53 (0001ms, 0033ms total)
+T3C98 000:215 JLINK_SetWarnOutHandler(...) (0000ms, 0033ms total)
+T3C98 000:215 JLINK_OpenEx(...)
+Firmware: J-Link V9 compiled Oct 25 2018 11:46:07
+Hardware: V9.50
+S/N: 59522972
+Feature(s): GDB, RDI, FlashBP, FlashDL, JFlash, RDDI
+TELNET listener socket opened on port 19021WEBSRV 
+Starting webserver (0022ms, 0055ms total)
+T3C98 000:215 WEBSRV Webserver running on local port 19080 (0022ms, 0055ms total)
+T3C98 000:215   returns O.K. (0022ms, 0055ms total)
+T3C98 000:237 JLINK_SetErrorOutHandler(...) (0000ms, 0055ms total)
+T3C98 000:237 JLINK_ExecCommand("ProjectFile = "D:\BaiduYun_DownLoad\黑金视频\探索者F4 资料盘(A盘)\4，程序源码\1，标准例程-寄存器版本\1，标准例程-寄存器版本\实验1 跑马灯实验\USER\JLinkSettings.ini"", ...). Ref file found at: D:\Keil_v5\ARM\Segger\JLinkDevices.ref (0002ms, 0057ms total)
+T3C98 000:237 REF file references invalid XML file: C:\Program Files (x86)\SEGGER\JLink\JLinkDevices.xml (0002ms, 0057ms total)
+T3C98 000:237   returns 0x00 (0003ms, 0058ms total)
+T3C98 000:240 JLINK_ExecCommand("Device = STM32F407VE", ...). Device "STM32F407VE" selected.  returns 0x00 (0001ms, 0059ms total)
+T3C98 000:241 JLINK_ExecCommand("DisableConnectionTimeout", ...).   returns 0x01 (0000ms, 0059ms total)
+T3C98 000:241 JLINK_GetHardwareVersion()  returns 0x17318 (0000ms, 0059ms total)
+T3C98 000:241 JLINK_GetDLLVersion()  returns 64505 (0000ms, 0059ms total)
+T3C98 000:241 JLINK_GetFirmwareString(...) (0000ms, 0059ms total)
+T3C98 000:241 JLINK_GetDLLVersion()  returns 64505 (0000ms, 0059ms total)
+T3C98 000:241 JLINK_GetCompileDateTime() (0000ms, 0059ms total)
+T3C98 000:241 JLINK_GetFirmwareString(...) (0000ms, 0059ms total)
+T3C98 000:241 JLINK_GetHardwareVersion()  returns 0x17318 (0000ms, 0059ms total)
+T3C98 000:241 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0002ms, 0061ms total)
+T3C98 000:243 JLINK_SetSpeed(10000) (0001ms, 0062ms total)
+T3C98 000:244 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 0062ms total)
+T3C98 000:244 JLINK_Reset() >0x10B TIF>Found SW-DP with ID 0x2BA01477 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>STM32 (connect): Can not attach to CPU. Trying connect under reset. >0x10B TIF>Found SW-DP with ID 0x2BA01477 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF>
+ >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>
+  ***** Error: STM32: Connecting to CPU via connect under reset failed. >0x10B TIF>Found SW-DP with ID 0x2BA01477 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>
+STM32 (connect): Can not attach to CPU. Trying connect under reset. >0x10B TIF>Found SW-DP with ID 0x2BA01477 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>
+  ***** Error: STM32: Connecting to CPU via connect under reset failed.JLINK_GetId() >0x10B TIF>Found SW-DP with ID 0x2BA01477 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF>
+ >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>STM32 (connect): Can not attach to CPU. Trying connect under reset. >0x10B TIF>Found SW-DP with ID 0x2BA01477 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>
+
+  ***** Error: STM32: Connecting to CPU via connect under reset failed. >0x10B TIF>Found SW-DP with ID 0x2BA01477 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>STM32 (connect): Can not attach to CPU. Trying connect under reset. >0x10B TIF>Found SW-DP with ID 0x2BA01477 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF>
+ >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>
+  ***** Error: STM32: Connecting to CPU via connect under reset failed.  returns 0x00000000 (0306ms, 0669ms total)
+T3C98 000:851 JLINK_GetId() >0x10B TIF>Found SW-DP with ID 0x2BA01477 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>STM32 (connect): Can not attach to CPU. Trying connect under reset. >0x10B TIF>Found SW-DP with ID 0x2BA01477 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF>
+ >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>
+  ***** Error: STM32: Connecting to CPU via connect under reset failed. >0x10B TIF>Found SW-DP with ID 0x2BA01477 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>
+STM32 (connect): Can not attach to CPU. Trying connect under reset. >0x10B TIF>Found SW-DP with ID 0x2BA01477 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>
+  ***** Error: STM32: Connecting to CPU via connect under reset failed.  returns 0x00000000 (0296ms, 0965ms total)
+T3C98 001:153 JLINK_GetFirmwareString(...) (0000ms, 0965ms total)
+T3C98 005:253 JLINK_Close() (0007ms, 0972ms total)
+T3C98 005:253  (0007ms, 0972ms total)
+T3C98 005:253 Closed (0007ms, 0972ms total)
